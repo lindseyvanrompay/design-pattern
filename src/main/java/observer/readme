@@ -1,0 +1,8 @@
+Un objet A est observé par un objet B, quand l'objet A fait un changement l'objet B est notifié automatiquement par la méthode Update
+
+Ce pattern permet de casser le dépendance lourde dans le classe
+
+class B{
+    class A a = new A(); // permet de supprimer ce lien ci
+
+}

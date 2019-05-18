@@ -1,0 +1,8 @@
+On possède un objet de base qui va etre décoré par d'autre objet
+
+=> Voiture => Normal
+           => Avec option => Option Toit Ouvrant
+                          => GPS
+                          => Régulateur
+
+L'objet de base a change ces propriétés/champs changé par l'objet qui décore
