@@ -4,6 +4,7 @@ package etatV1.etat;
 /**
  * Une classe possédant un etat doit implémenter cette classe.
  * Cela permet à la classe fille de changer l'état du parent
+ * La classe parent peut aussi faire monEtat = monEtat.prochainEtat();
  */
 public interface FeuContext {
 

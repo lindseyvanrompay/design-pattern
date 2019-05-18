@@ -12,7 +12,7 @@ public class Main {
 
     public static void main(String[] args) throws InterruptedException {
 
-        // Création ed'un feu tricolore possédent un etat
+        // Création de feux tricolores possédent un etat
         Feu feu = new Feu("Feu 1");
         Feu feu1 = new Feu("Feu 2");
         Feu feu2 = new Feu("Feu 3");
