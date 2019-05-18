@@ -1,5 +1,9 @@
 package etatV2.etat;
 
+/**
+ * Etat A
+ * Implemente l interface EtatV2. EtatV2 place des exceptions par defauts pour chaque appel non Override
+ */
 public class EtatA implements EtatV2{
 
     private Context context;

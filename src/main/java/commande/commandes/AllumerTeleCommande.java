@@ -14,7 +14,6 @@ public class AllumerTeleCommande implements Commande {
             throw new IllegalArgumentException();
         }
         this.tele = tele0;
-
     }
 
     @Override

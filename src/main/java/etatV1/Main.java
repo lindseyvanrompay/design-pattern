@@ -17,6 +17,7 @@ public class Main {
         Feu feu1 = new Feu("Feu 2");
         Feu feu2 = new Feu("Feu 3");
 
+        // Chaque feu fonctionne sur son propre Thread
         Thread t = new Thread(feu);
         Thread t1 = new Thread(feu1);
         Thread t2 = new Thread(feu2);

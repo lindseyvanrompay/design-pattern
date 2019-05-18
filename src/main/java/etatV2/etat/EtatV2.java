@@ -1,7 +1,8 @@
 package etatV2.etat;
 
 /**
- * Interface Etat. On peut y ajouter des methodes par defaut si elles ne sont pas Override par les filles
+ * Interface Etat. Implemente toute les methodes en donnant une implementation par defaut.
+ * Ici, chaque prochain etat lance une exception.
  */
 public interface EtatV2 {
     public default void goToA(){

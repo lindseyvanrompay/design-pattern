@@ -10,6 +10,11 @@ public class FeuVert implements Etat {
         this.feuContext = feuContext;
     }
 
+
+    /**
+     * Change l'état de la classe mere en feu rouge
+     * Puis change le timer
+     */
     @Override
     public void prochainEtat() {
         feuContext.setEtat(new FeuJaune(feuContext));
